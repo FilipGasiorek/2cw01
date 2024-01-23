@@ -7,7 +7,7 @@
     <title>Plan lekcji środa</title>
 
     <script type="text/javascript">
-       function odliczanie()
+       function ok()
         {
         
         var dzisiaj = new Date();
@@ -25,13 +25,13 @@
         
         document.getElementById("zegar").innerHTML = dzien+"/"+miesiac"/"+rok+"/"+" | "+godzina+":"+minuta+":"+sekunda;
 
-            setTimeout("odliczanie()",1000);
+            setTimeout("ok()",1000);
         
         }    
     </script>
 
 </head>
-<body onload="odliczanie();">
+<body onload="ok();">
     <div id="zegar"></div>
 
     
